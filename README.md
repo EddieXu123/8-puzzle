@@ -3,7 +3,7 @@ Programming Assignment 1 for CSDS 291
 
 Solving the 8-puzzle with A* search and beam search.
 
-To test, simply run "java CSDS291PA1 input.txt" in the command line and you will be prompted with certain questions to answer to build the board.
+To test, simply run "java Main TestFile.txt" in the command line. You may also replace the text file with your own desired commands.
 
 # Methods include 
   setState (creation of board)

@@ -14,11 +14,12 @@ To test, simply run "java CSDS291PA1 input.txt" in the command line and you will
   
   randomizeState (makes n random valid moves)
   
-  solveAStart (solves the puzzle using A*search with heuristic misplaced tiles and Manhattan distance [see next method])
+  solveAStart (solves the puzzle using A*search with heuristics - Hamming and Manhattan distance [see next method])
   
   misplacedTiles (counts the number of tiles in the incorrect position [excluding blank tile])
   
-  distanceToManhattan (calculates the sum of distances of the tiles from their goal positions)
+  manhattanDistance (calculates the sum of distances of the tiles from their goal positions)
+   
+  solveBeam (solves the puzzle with local beam search)
   
-  ... More to come
-  
+  maxNodes(n) -> Sets the maximum number of nodes to consider per search

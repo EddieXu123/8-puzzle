@@ -1,5 +1,5 @@
 # 8-puzzle
-Programming Assignment 1 for CSDS 291
+Programming Assignment 1 for CSDS 291 (Intro To AI)
 
 Solving the 8-puzzle with A* search and beam search.
 
